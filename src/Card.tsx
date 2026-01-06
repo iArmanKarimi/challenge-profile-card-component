@@ -17,6 +17,16 @@ export default function Card() {
             className="w-24 h-24 rounded-full border-4 border-white -mt-12"
           />
         </div>
+
+        {/* Name */}
+        <div className="flex justify-center space-x-2 mt-5">
+          <p className="text-navy-950 inline font-bold">Victor Crest</p>
+          <p className="font text-gray-500">26</p>
+        </div>
+        <div className="flex justify-center mt-1 text-gray-500 text-sm">
+          London
+        </div>
+        <hr className="text-gray-100 mt-7" />
       </div>
     </div>
   );
