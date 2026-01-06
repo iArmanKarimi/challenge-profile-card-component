@@ -15,4 +15,5 @@ Error generating stack: `+a.message+`
           bg-[url('/images/bg-pattern-top.svg')]\r
           bg-no-repeat bg-position-[right_center]`}),sl.jsx("div",{className:`absolute w-1/2 h-[50vh] md:h-1/2 bottom-0 right-0\r
         bg-[url('/images/bg-pattern-bottom.svg')]\r
+        bg-no-repeat\r
         `}),sl.jsx(s1,{})]}),A[0]=w):w=A[0],w}f1.createRoot(document.getElementById("root")).render(sl.jsx(Pd.StrictMode,{children:sl.jsx(m1,{})}));
