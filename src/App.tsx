@@ -13,13 +13,12 @@ function App() {
           bg-[url('/images/bg-pattern-top.svg')]
           bg-no-repeat bg-position-[right_center]"
       ></div>
-
-      <Card />
       <div
         className="absolute w-1/2 h-[50vh] md:h-1/2 bottom-0 right-0
         bg-[url('/images/bg-pattern-bottom.svg')]
         "
       ></div>
+      <Card />
     </div>
   );
 }
