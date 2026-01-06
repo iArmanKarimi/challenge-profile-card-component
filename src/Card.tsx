@@ -1,3 +1,6 @@
+import avatar from "/images/image-victor.jpg";
+import pattern from "/images/bg-pattern-card.svg";
+
 export default function Card() {
   return (
     <div
@@ -7,7 +10,7 @@ export default function Card() {
       <div className="bg-white w-72 h-85 flex flex-col rounded-xl shadow-md overflow-hidden relative">
         {/* Top background pattern */}
         <img
-          src="/images/bg-pattern-card.svg"
+          src={pattern}
           alt="card background"
           className="w-full"
         />
@@ -15,7 +18,7 @@ export default function Card() {
         {/* Avatar */}
         <div className="flex justify-center">
           <img
-            src="/images/image-victor.jpg"
+            src={avatar}
             alt="avatar"
             className="w-24 h-24 rounded-full border-4 border-white -mt-12"
           />
